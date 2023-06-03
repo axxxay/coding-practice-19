@@ -1,0 +1,170 @@
+.container {
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  min-width: 100vw;
+}
+
+.heading {
+  font-size: 40px;
+  color: #0f172a;
+  margin: 0px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  width: 42vh;
+  background-size: cover;
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer-bg {
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  font-size: 35px;
+  margin: 0px;
+  font-weight: 700;
+  color: #00d9f5;
+}
+
+.time-text {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.timer-set-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.play-reset-con {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.play-reset-items {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.play-and-reset-img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.play-and-reset-text {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0px;
+}
+
+.set-time-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+
+.set-timer-con {
+  display: flex;
+  align-items: center;
+}
+
+.timer-btn {
+  font-size: 45px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.timer-text {
+  background-image: linear-gradient(to right, #3cfaca, #00d9f5);
+  font-weight: 500;
+  font-size: 35px;
+  width: 110px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: linear-gradient(to right, #ffffff, #cffcf1);
+    padding: 50px;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  .timer-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .timer {
+    height: 550px;
+    width: 850px;
+  }
+  .timer-bg {
+    width: 150px;
+    height: 150px;
+  }
+  .play-reset-con {
+    width: 50%;
+  }
+  .set-time-text {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .timer-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+  }
+  .timer-btn {
+    font-size: 40px;
+    margin: 15px;
+  }
+}
