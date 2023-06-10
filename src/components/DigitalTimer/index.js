@@ -61,7 +61,7 @@ class DigitalTimer extends Component {
 
       // 7. If the timer is running(isTimerRunning is true)//7.1 clear the timer interval
     } else {
-      this.intervalId = setInterval(this.incrementTimeElapsedInSeconds, 10)
+      this.intervalId = setInterval(this.incrementTimeElapsedInSeconds, 1000)
 
       // 8. if the timer is not running(isTimerRunning is false)//8.1 set the interval
     }
